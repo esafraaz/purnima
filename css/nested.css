@@ -1,0 +1,17 @@
+.main-options{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.main-options>li:hover >ul{
+    background-color: lightskyblue;
+    display: block;
+}
+.first-child{
+    position: fixed;
+     display: none ;
+}
+ul>li{
+    border: lightskyblue solid 1px;
+}

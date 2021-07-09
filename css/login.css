@@ -1,0 +1,50 @@
+body{
+
+    background-image: url(image/R.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+ul{
+    margin-top: 45px;
+    padding-top: 45px;
+}
+li{
+    padding: 0 10px;
+    display: inline;
+}
+li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+}
+li a:visited{
+  color: black;
+}
+.search_bar{
+    margin: 100px 40%;
+    display: flex;
+}
+#search_bar1{
+    border-radius: 25px;
+    margin: 25px 0;
+    width: 250px;
+}
+#search_bar_text{
+    color: whitesmoke;
+    margin-left: 5%;
+}
+.button-text{
+    color: whitesmoke;
+    display: inline;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 25px;
+}
+.button-text:hover{
+    color:wheat;
+}
+nav{
+    background-image: linear-gradient(rgb(31, 31, 22),rgb(20, 20, 7), rgb(32, 32, 26));
+    height: 100px;
+}
