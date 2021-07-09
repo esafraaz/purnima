@@ -5,6 +5,9 @@
     margin: 0;
     color: whitesmoke;
 } 
+header{
+    background-image: url(image/head.jpg);
+}
 li{
     list-style: none;
 }
@@ -14,20 +17,21 @@ li a{
 .search_bar{
     display: flex;
     float: right;
-    justify-content: right;
+    justify-content: space-evenly;
 }
 #search_bar1{
     border-radius: 25px;
-    margin: 45px 0;
+    margin: 45px 45px;
     padding: 5px;
     width: 250px;
     height: 25px;
 }
 #search_bar_text{
     color: whitesmoke;
+    font-size: 25x;
     font-weight: 700;
-    margin-top: 45px;
-    padding: 5px 35px;
+    margin-top: 25px;
+    padding: 0 25px;
 }
 .button-text{
     color: rgb(255, 255, 255);
@@ -39,6 +43,9 @@ li a{
     color: wheat;
     display: block;
 }
+.nested-buttons{
+    color: whitesmoke;
+}
 .nested-buttons:hover{
     color: pink;
 }
@@ -48,7 +55,7 @@ li a{
 .ul-inline{
     display: flex;
     float: left;
-    justify-content: right;
+    justify-content: space-between;
 }
 .nested-ul{
     position: fixed;
